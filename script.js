@@ -1,23 +1,5 @@
 'use strict';
 
-/*
-console.log(document.querySelector('.message').textContent);
-
-// DOM - document object model: structured representation of HTML documents
-// DOM allows js to access HTML elements and styles to manipulate them.
-// DOM is a part of web API - which is like library (also written in js) that browser implements and that we can access from js code.
-// API - Application Programming Interface
-
-document.querySelector('.message').textContent = 'correct number!';
-
-document.querySelector('.number').textContent = 13;
-document.querySelector('.score').textContent = 10;
-
-document.querySelector('.guess').value = 23;
-console.log(document.querySelector('.guess').value);
-*/
-
-//PROJECT 1
 const secretNumber = Math.trunc(Math.random() * 20) + 1;
 const startingScore = 20;
 let score = startingScore;
